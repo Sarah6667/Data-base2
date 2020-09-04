@@ -9,11 +9,11 @@
 
 <h2// class="section-title">通知公告
   
-<span class="section-title-border">
+<span// class="section-title-border">
   
-</span>
+</span//>
 
-</h2>
+</h2//>
                         
 #### jQuery语法：
 
@@ -21,11 +21,11 @@
 
 <head//>
 
-<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+<script// src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
   
-</script>
+</script//>
 
-</head>
+</head//>
                             
 $('.section-title').alert('You will learn more anout it!^_^')
 
@@ -35,4 +35,4 @@ $('.section-title').alert('You will learn more anout it!^_^')
 
 标签h2添加属性： onmouseover="alert('You will learn more anout it!^_^')"
 
-*增加//，确保代码显示。
+*标签后增加//，确保代码显示。
