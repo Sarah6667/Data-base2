@@ -9,9 +9,9 @@
 
 <h2 class="section-title">通知公告
   
-  <span class="section-title-border">
+<span class="section-title-border">
   
-  </span>
+</span>
 
 </h2>
                         
