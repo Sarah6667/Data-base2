@@ -7,25 +7,25 @@
 
 初始代码：
 
-<h2 class="section-title">通知公告
+[<h2 class="section-title">通知公告
   
 <span class="section-title-border">
   
 </span>
 
-</h2>
+</h2>]
                         
 #### jQuery语法：
 
 更新代码： 
 
-<head>
+[<head>
 
 <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
   
 </script>
 
-</head>
+</head>]
                             
 $('.section-title').alert('You will learn more anout it!^_^')
 
