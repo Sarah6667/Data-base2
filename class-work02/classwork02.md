@@ -32,6 +32,14 @@
  
 </div>
 
+<p>Let's come to this website. Hope you will get help.</p>
+<div class="container">
+	<table class="table table-hover">
+	<tr><td>English</td><td>Chinese</td><td>Examples</td></tr>
+	<tr><td>Peace</td><td>和平</td><td>和平与发展仍是当今时代的主题。
+    
+	</table>
+</div>
 </body>
 </html>
 ```
