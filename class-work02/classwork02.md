@@ -2,45 +2,36 @@
 
 #### 练习列表的使用
 
+```
 <!DOCTYPE html>
-
 <html>
-
 <head>
+  <title>Bootstrap 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-  <meta charset="utf8"/>
-  
-  <title>Bootstrap 101 Template</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Bootstrap -->
-   
-  <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
-
+<style>
+	.list-group-horizontal .list-group-item {
+		display: inline-block;
+	}
+</style>
 </head>
-
 <body>
 
-<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+<div class="container">
 
-  <li><a tabindex="-1" href="#">动作</a></li>
-
-  <li><a tabindex="-1" href="#">剧情</a></li>
-  
-  <li><a tabindex="-1" href="#">恐怖</a></li>
-  
-  <li class="divider"></li>
-  
-  <li><a tabindex="-1" href="#">更多类型</a></li>
-
-</ul>
-
-<script src="http://code.jquery.com/jquery.js"></script>
-
-<script src="/js/bootstrap.min.js"></script>
+      <div class="list-group list-group-horizontal">
+        <a href="#" class="list-group-item active">Home</a>
+        <a href="#" class="list-group-item">About</a>
+        <a href="#" class="list-group-item">Contact</li>
+	  </div>
+ 
+</div>
 
 </body>
-
 </html>
-
+```
