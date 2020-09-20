@@ -5,7 +5,7 @@
 
 代码如下：
 
-'''
+```
 <html>
   
 <head>
@@ -39,5 +39,5 @@ $(document).ready(function(){
 </body>
 
 </html>
-'''
+```
 
