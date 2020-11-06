@@ -36,3 +36,14 @@ echo $xml->body;
 ?>
 ```
 输出：SimpleXMLElement Object ( [to] => Tove [from] => Jani [heading] => Reminder [body] => Don't forget me this weekend! )
+
+### 使用phpQuery
+php文件：
+```
+<?php
+include 'phpQuery.php'; 
+phpQuery::newDocumentFile('note.xml'); 
+echo pq('contact > age:eq(0)');
+?>
+```
+输出：SimpleXMLElement Object ( [to] => Tove [from] => Jani [heading] => Reminder [body] => Don't forget me this weekend! )
